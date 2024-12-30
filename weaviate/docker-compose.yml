@@ -21,8 +21,6 @@ services:
       AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
       PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
       ENABLE_API_BASED_MODULES: 'true'
-      CLUSTER_HOSTNAME: "node1"
-      CLUSTER_GOSSIP_BIND_PORT: "7102"
-      CLUSTER_DATA_BIND_PORT: "7103"
+      ENABLE_MODULES: 'generative-ollama'
 volumes:
   weaviate_data:
