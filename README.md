@@ -51,8 +51,9 @@ https://jira-agent.streamlit.app/
 ## 🛠️ Workflow
 
 ### Database Integration
-- Weaviate stores semantic embeddings for tickets and incidents.
-- Webhooks trigger updates when Jira tickets transition to "Closed," saving the ticket data.
+- Weaviate stores the data and semantic embeddings for tickets.
+- JIRA Webhooks trigger updates when Jira tickets transition to "Closed," sending the basic Ticket details.
+- JIRA REST APIs are utilized for fetching Ticket Data and storing in the Weaviate Database.
 
 ### Embedding Generation
 - Cohere generates embeddings for each ticket.
