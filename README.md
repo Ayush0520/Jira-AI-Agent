@@ -1,4 +1,4 @@
-# Vector-JIRA-AI-Agent
+# JIRA-AI-Agent
 
 🚀 **Introducing the JIRA AI Agent Project!** 🌟
 
